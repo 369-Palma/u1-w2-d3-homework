@@ -24,12 +24,35 @@ if (num !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+/* let numero = 20;
+let divisore = 5;
+if () {
+  console.log("divisibile per 5");
+} */
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let n1 = 5;
+let n2 = 3;
+
+if (n1 === 8 || n2 === 8 || n1 + n2 === 8 || n1 - n2 === 8) {
+  console.log("condizione verificata");
+}
+/* Altrimenti 
+ if (n1 === 8) {
+  console.log("condizione verificata");
+} /* else if (n2 === 8) {
+  console.log("condizione verificata");
+} else if ((n1 + n2) === 8) {
+  console.log("condizione verificata");
+} else if  {
+  console.log("condizione verificata");
+}  else {
+  console.log("NON verificato");
+}
+*/
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
