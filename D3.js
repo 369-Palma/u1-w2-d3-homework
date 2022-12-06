@@ -60,7 +60,7 @@ if (n1 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 15;
+/* let totalShoppingCart = 15;
 const spedizione = 10;
 let checkout;
 if (totalShoppingCart > 50) {
@@ -68,13 +68,22 @@ if (totalShoppingCart > 50) {
 } else {
   checkout = totalShoppingCart + spedizione;
 }
-console.log(checkout);
+console.log(checkout); */
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-
+let totalShoppingCart = 100;
+let bonus = totalShoppingCart - (20 / 100) * totalShoppingCart;
+const spedizione = 10;
+let checkout;
+if (bonus > 50) {
+  console.log("Spedizione gratuita");
+} else {
+  checkout = totalShoppingCart + spedizione;
+}
+console.log(checkout);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
