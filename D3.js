@@ -93,6 +93,16 @@ console.log(checkout);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x = 3;
+let y = 36;
+let z = 12;
+if (x > y && x > z) {
+  console.log("il più grande è", x);
+} else if (z > x && z > y) {
+  console.log("il più grande è", x);
+} else if (y > x && y > z) {
+  console.log("il più grande è", y);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
