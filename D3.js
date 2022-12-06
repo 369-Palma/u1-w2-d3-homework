@@ -120,7 +120,7 @@ if (x !== primo && x !== terzo) {
 } else if (z !== primo && z !== terzo) {
   secondo = x;
 } else if (y !== primo && y !== terzo) {
-  terzo = y;
+  secondo = y;
 }
 console.log(primo, secondo, terzo);
 
@@ -129,7 +129,10 @@ console.log(primo, secondo, terzo);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let valore = 47;
+if (valore === typeof Number) {
+  console.log("verificato");
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
