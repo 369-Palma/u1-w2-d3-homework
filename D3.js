@@ -3,7 +3,13 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let numA = 4;
+let numB = 15;
+if (numA > numB) {
+  console.log("il numero più grande è", numA);
+} else {
+  console.log("il numero più grande è:", numB);
+}
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
@@ -76,10 +82,10 @@
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
