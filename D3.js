@@ -75,7 +75,7 @@ console.log(checkout); */
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 let totalShoppingCart = 100;
-let bonus = totalShoppingCart - (20 / 100) * totalShoppingCart;
+let bonus = (totalShoppingCart - 20 / 100) * totalShoppingCart;
 const spedizione = 10;
 let checkout;
 if (bonus > 50) {
@@ -138,6 +138,8 @@ if (valore === typeof Number) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let valore=5
+if(if===0){console.log("valore è 0")}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -171,17 +173,21 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city= "Toronto";
+console.log(me)
+ 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+delete me.lastName;
+console.log(me);
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
-
+delete me.skills;
+console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 14
