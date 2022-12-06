@@ -96,13 +96,33 @@ console.log(checkout);
 let x = 3;
 let y = 36;
 let z = 12;
+let primo;
+let secondo;
+let terzo;
 if (x > y && x > z) {
-  console.log("il più grande è", x);
+  primo = x;
 } else if (z > x && z > y) {
-  console.log("il più grande è", x);
+  primo = z;
 } else if (y > x && y > z) {
-  console.log("il più grande è", y);
+  primo = y;
 }
+
+if (x < y && x < z) {
+  terzo = x;
+} else if (z < x && z < y) {
+  terzo = z;
+} else if (y < x && y < z) {
+  terzo = y;
+}
+
+if (x !== primo && x !== terzo) {
+  secondo = x;
+} else if (z !== primo && z !== terzo) {
+  secondo = x;
+} else if (y !== primo && y !== terzo) {
+  terzo = y;
+}
+console.log(primo, secondo, terzo);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
