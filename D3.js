@@ -138,8 +138,8 @@ if (valore === typeof Number) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let valore=5
-if(if===0){console.log("valore è 0")}
+/* let valore=5
+if(if===0){console.log("valore è 0")} */
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -173,9 +173,9 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.city= "Toronto";
-console.log(me)
- 
+me.city = "Toronto";
+console.log(me);
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
@@ -186,18 +186,20 @@ console.log(me);
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
+
+/* SCRIVI QUI LA TUA RISPOSTA */
 delete me.skills;
 console.log(me);
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const array
+push array=[1,2,3,4,5,6,7,8,9,,10]
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
+array[9]=100
+console.log(array)
 /* SCRIVI QUI LA TUA RISPOSTA */
